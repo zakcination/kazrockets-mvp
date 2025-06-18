@@ -1,0 +1,61 @@
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy[asyncio]==2.0.23
+asyncpg==0.29.0
+alembic==1.12.1
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Redis and Caching
+redis[asyncio]==5.0.1
+
+# Message Broker
+aio-pika==9.3.1
+
+# File Storage (MinIO/S3)
+aioboto3==12.0.0
+minio==7.2.0
+
+# Environment and Configuration
+python-dotenv==1.0.0
+
+# HTTP Client
+httpx==0.25.2
+
+# Logging
+structlog==23.2.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-xdist==3.5.0
+httpx==0.25.2
+testcontainers==3.7.1
+factory-boy==3.3.0
+
+# Development
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1
+pre-commit==3.6.0
+
+# CORS
+python-multipart==0.0.6
+
+# Date and Time
+python-dateutil==2.8.2
+
+# UUID
+uuid7==0.1.0
